@@ -2,7 +2,7 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm,PasswordChangeForm, UserChangeForm
 
 from django.contrib.auth.models import User
-from more_itertools import quantify
+# from more_itertools import quantify
 from .models import Category, Product, Stock, Invoice, Invoice_Item
 from datetime import datetime
 
